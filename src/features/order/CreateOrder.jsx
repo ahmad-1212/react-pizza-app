@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Form, redirect, useActionData, useNavigation } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -7,7 +8,6 @@ import { clearCart, getCart, getTotalCartPrice } from '../cart/cartSlice';
 import EmptyCart from '../cart/EmptyCart';
 import store from '../../store';
 import { formatCurrency } from '../../utils/helpers';
-import { useState } from 'react';
 import { fetchAddress } from '../user/userSlice';
 
 // https://uibakery.io/regex-library/phone-number
