@@ -1,8 +1,15 @@
-# React + Vite
+# React Pizza App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### [Demo of Live Site](https://react-pizza-app-1212.netlify.app)
 
-Currently, two official plugins are available:
+React Pizza App Build with React, Redux and Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
+
+This app is build for pizza restaurant (cash on delivery). In this app user can enter their name and than start ordering by adding pizzas to cart and than place order by adding thier email, address and Contact. The user will get their order on specified order, and the user will pay on delivery. This app use most advance data fetching with react router dom for better user experience.
+
+## Tech Stack
+
+**React:** as a frontend JS library.
+**Redux:** as a State management system.
+**Tailwind:** as a CSS framework
